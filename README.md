@@ -7,7 +7,7 @@ https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
 Tools: Python 3.6.5, coinstac-simulator 4.2.0
 
-Steps: \
+Steps to run: \
 1- sudo npm i -g coinstac-simulator@4.2.0 \
 2- git clone https://github.com/trendscenter/coinstac-regression-csv.git \
 3- cd coinstac-regression-csv \
