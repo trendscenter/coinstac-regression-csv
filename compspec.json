@@ -36,12 +36,12 @@
       {
         "label": "Covariates",
         "type": "array",
-        "items": ["boolean", "number"]
+        "items": ["integer", "float"]
       },
       "data": {
         "label": "Data",
         "type": "array",
-        "items": ["FreeSurfer"],
+        "items": ["Feature Values"],
         "extensions": [["csv", "txt"]]
       }
     },
