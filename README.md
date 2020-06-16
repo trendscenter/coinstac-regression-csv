@@ -1,7 +1,6 @@
 # coinstac-regression-csv
 Coinstac Code for Decentralized Regression (Normal Equation) for generic CSV files.
 Input for each site contains two CSV files, the features and the labels (specified as X_file.csv and Y_file.csv).
-The covariates do not need to be specified in inputspec file since they are read as part of CSV files.
 
 Here UCI Boston housing dataset is used which can be found in the following link:\
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
