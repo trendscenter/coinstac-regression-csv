@@ -1,0 +1,120 @@
+[{
+"covariates":
+  {
+    "value":
+    [
+      [
+        "X_file.csv"
+      ]
+    ]
+  },
+"data":
+{
+  "value":
+  [
+    [
+      "Y_file.csv"
+    ],
+    [
+      "Class"
+    ],
+    [
+      "number"
+    ]
+  ]
+},
+"lambda": {
+  "value": 0
+}
+},
+
+{
+"covariates":
+  {
+    "value":
+    [
+      [
+        "X_file.csv"
+      ]
+    ]
+  },
+"data":
+{
+  "value":
+  [
+    [
+      "Y_file.csv"
+    ],
+    [
+      "Class"
+    ],
+    [
+      "number"
+    ]
+  ]
+},
+"lambda": {
+  "value": 0
+}
+},
+
+{
+"covariates":
+  {
+    "value":
+    [
+      [
+        "X_file.csv"
+      ]
+    ]
+  },
+"data":
+{
+  "value":
+  [
+    [
+      "Y_file.csv"
+    ],
+    [
+      "Class"
+    ],
+    [
+      "number"
+    ]
+  ]
+},
+"lambda": {
+  "value": 0
+}
+},
+
+{
+"covariates":
+  {
+    "value":
+    [
+      [
+        "X_file.csv"
+      ]
+    ]
+  },
+"data":
+{
+  "value":
+  [
+    [
+      "Y_file.csv"
+    ],
+    [
+      "Class"
+    ],
+    [
+      "number"
+    ]
+  ]
+},
+"lambda": {
+  "value": 0
+}
+}
+ ]
