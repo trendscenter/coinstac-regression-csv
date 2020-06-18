@@ -4,7 +4,7 @@
     "id": "regression_csv",
     "version": "v1.0.0",
     "repository": "https:\/\/github.com\/trendscenter\/coinstac-regression-csv",
-    "description": "Decentralized Regression for generic CSV files"
+    "description": "Decentralized Regression"
   },
   "computation": {
     "type": "docker",
@@ -39,9 +39,9 @@
         "items": ["integer", "float"]
       },
       "data": {
-        "label": "Data",
+        "label": "responses",
         "type": "array",
-        "items": ["Feature Values"],
+        "items": ["responses"],
         "extensions": [["csv", "txt"]]
       }
     },
