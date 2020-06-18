@@ -20,11 +20,16 @@ def csv_parser(args):
 
     X_file = open(os.path.join(args["state"]["baseDirectory"], X_info[0][0]))
     Y_file = open(os.path.join(args["state"]["baseDirectory"], Y_info[0][0]))
+    X_labels = X_info[1]
+    Y_labels = Y_info[1]
+
 
     X_ = pd.read_csv(X_file, header = 0)
     Y_ = pd.read_csv(Y_file, header = 0)
     X_.set_index(X_.columns[0], inplace = True)
     Y_.set_index(Y_.columns[0], inplace = True)
+    X_ = X_[X_labels]
+    Y_ = Y_[Y_labels]
     X = X_.apply(pd.to_numeric, errors = 'ignore')
     Y = Y_.apply(pd.to_numeric, errors = 'ignore')
 
