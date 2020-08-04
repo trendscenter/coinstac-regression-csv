@@ -14,7 +14,8 @@ import ujson as json
 import regression as reg
 from local_ancillary import (add_site_covariates, ignore_nans,
                              local_stats_to_dict_fsl)
-from parsers import csv_parser #, fsl_parser
+import coinstacparsers
+from coinstacparsers import parsers
 
 warnings.simplefilter("ignore")
 
@@ -23,7 +24,7 @@ def local_0(args):
     input_list = args["input"]
     lamb = input_list["lambda"]
 
-    (X, y) = csv_parser(args)
+    (X, y) = parsers.csv_parser(args)
 
     output_dict = {"computation_phase": "local_0"}
 
