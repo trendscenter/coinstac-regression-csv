@@ -1,7 +1,7 @@
 matplotlib
 nilearn==0.4.2
 numba
-numpy==1.15.4 # Note this is not the latest version of python
+numpy==1.22.0 # Note this is not the latest version of python
 # fails with the latest version
 scikit-learn
 statsmodels
